@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 
 function ProductTable({products,onDelete,}) {
   const navigate = useNavigate();
-
+  
   const getStatus = (quantity) => {
     if (quantity === 0) {
       return "Out of Stock";

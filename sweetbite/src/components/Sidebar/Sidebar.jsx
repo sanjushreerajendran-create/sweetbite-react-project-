@@ -31,10 +31,9 @@ function Sidebar() {
       </button>
 
       {isOpen && (
-        <div
-          className="sidebar-overlay"
-          onClick={closeSidebar}
-        ></div>
+        <div className="sidebar-overlay" onClick={closeSidebar}>
+          
+        </div>
       )}
 
       <aside className={`sidebar ${isOpen ? "sidebar-open" : ""}`}>
