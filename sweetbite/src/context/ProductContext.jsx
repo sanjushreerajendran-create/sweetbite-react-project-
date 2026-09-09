@@ -3,7 +3,7 @@ import useLocalStorage from "../hooks/useLocalStorage";
 import {
   initialProducts,
   initialCategories,
-} from "../services/dummyData";
+} from "../services/DummyData.jsx";
 
 const ProductContext = createContext();
 
