@@ -1,5 +1,5 @@
 import { createContext, useContext } from "react";
-import useLocalStorage from "../hooks/Uselocalstorage";
+import useLocalStorage from "../hooks/useLocalStorage.jsx";
 import {
   initialProducts,
   initialCategories,
