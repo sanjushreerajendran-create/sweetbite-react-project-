@@ -13,7 +13,7 @@ import "./styles/products.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/sweetbite-react-project-/">
       <ProductProvider>
         <App />
       </ProductProvider>
